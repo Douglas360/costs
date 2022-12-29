@@ -22,7 +22,7 @@ export function NewProject() {
             .then((res) => res.json)
             .then((data) => {
                 //navigate('/project', { message: "Projeto criado com sucesso" })
-                navigate('/project', { state: { message: "Projeto criado com sucesso" } })
+                navigate('/projects', { state: { message: "Projeto criado com sucesso" } })
 
             }).catch((err) => console.log(err))
 

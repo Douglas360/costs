@@ -1,169 +1,28 @@
 {
   "projects": [
     {
-      "name": "Teste",
-      "budget": "5000",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
-      "name": "Teste",
-      "budget": "5000",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "name": "Migrar para Cloud",
-      "budget": "10000",
+      "name": "Migrar SaaS para AWS",
+      "budget": "500",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "Teste",
-      "budget": "231",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 4
-    },
-    {
-      "name": "qwe",
-      "budget": "234",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 5
-    },
-    {
-      "name": "qwe",
-      "budget": "132",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 6
-    },
-    {
-      "name": "123",
-      "budget": "123",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 7
-    },
-    {
-      "name": "123",
-      "budget": "121",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 8
-    },
-    {
-      "name": "123",
-      "budget": "123",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 9
-    },
-    {
-      "name": "123",
-      "budget": "123",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 10
-    },
-    {
-      "name": "123",
-      "budget": "120",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 11
-    },
-    {
-      "name": "123",
-      "budget": "123",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 12
-    },
-    {
-      "name": "123",
-      "budget": "123",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 13
-    },
-    {
-      "name": "123",
-      "budget": "123",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 14
-    },
-    {
-      "name": "123",
-      "budget": "123",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 15
+      "cost": 200,
+      "services": [
+        {
+          "name": "Contratar DevOps",
+          "cost": "100",
+          "description": "Preparar o deploy",
+          "id": "312f32bc-a962-4783-98ff-434e16b13370"
+        },
+        {
+          "name": "Criar EC2",
+          "cost": "100",
+          "description": "Realizar a criação da instancia EC2",
+          "id": "9786baee-ddd7-478d-a8d5-7e5f2840a99b"
+        }
+      ],
+      "id": 1
     }
   ],
   "categories": [

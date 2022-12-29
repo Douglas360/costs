@@ -12,6 +12,7 @@ import { Footer } from './components/layout/Footer';
 import { Container } from './components/layout/Container';
 import { Navbar } from './components/layout/Navbar';
 import { Projects } from './components/Pages/Projects';
+import { Project } from './components/Pages/Project';
 
 export const AppRouter = () => {
 
@@ -47,9 +48,15 @@ export const AppRouter = () => {
                             }
                         />
                         <Route
-                            path="/project"
+                            path="/projects"
                             element={
                                 <Projects />
+                            }
+                        />
+                        <Route
+                            path="/project/:id"
+                            element={
+                                <Project />
                             }
                         />
 
